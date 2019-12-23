@@ -14,21 +14,13 @@
 </script>
   <script type="text/javascript"> 
     loadXMLDoc(); 
-</script> 
-<script type="text/javascript"> 
-    function loadXMLDoc() { 
-    var xmlhttp; 
-    if (window.XMLHttpRequest) { 
-     xmlhttp = new XMLHttpRequest(); 
-    } 
-    xmlhttp.onreadystatechange = function() { 
-     if (xmlhttp.readyState == 4 && xmlhttp.status == 200) { 
-     document.getElementById("status").innerHTML = xmlhttp.responseText; 
-     } 
-    } 
-    xmlhttp.open("GET", "start.txt", true); 
-    xmlhttp.send(); 
-    } 
+</script>
+console.log("%d年%d月%d日",2017,7,26);
+console.log("圆周率是%f",3.1415926);
+var dog = {};
+dog.name = "大黄";
+dog.color = "黄色";
+console.log("这是我家的小狗：%o", dog);
 </script> 
 
 
